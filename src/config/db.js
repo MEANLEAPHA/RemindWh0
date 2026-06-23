@@ -7,7 +7,7 @@ const dbConfig = new Pool({
   database: process.env.DB_NAME,                        
   port: process.env.DB_PORT,                                
   max: process.env.DB_LIMIT,                                  
-  idleTimeoutMillis: process.env.idleTimeoutMillis,
+  idleTimeoutMillis: process.env.IDLETIMEOUTMILLIS,
   ssl: { rejectUnauthorized: false }  
 });
 
