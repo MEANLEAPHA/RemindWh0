@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/package",
   "name": "node",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "src/server.js",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
