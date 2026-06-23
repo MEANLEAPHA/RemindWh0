@@ -2,9 +2,9 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const db = require('../config/db');
 require('dotenv').config();
-const calculateAlertTimes = require('../service/sendAlert');
-const { sendPinCodeEmail, sendResendPinEmail, sendResetPasswordPinEmail} = require('../util/email');
-const { createToken } = require('../util/jwtHelper'); 
+const calculateAlertTimes = require('../../src/service/sendAlert');
+const { sendPinCodeEmail, sendResendPinEmail, sendResetPasswordPinEmail} = require('../../src/util/email');
+const { createToken } = require('../../src/util/jwtHelper'); 
 
 
 const getTaskAlerts = (req, res) => {

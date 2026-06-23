@@ -2,7 +2,7 @@
 const { DateTime } = require('luxon');
 const schedule = require('node-schedule');
 const nodemailer = require('nodemailer');
-const db = require('../config/db');
+const db = require('../../node/config/db');
 
 // Email transporter configuration
 const transporter = nodemailer.createTransport({
